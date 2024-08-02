@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Guessing Game</h1>
+        <input type="file" id="fileInput">
+        <div id="letters" class="letters"></div>
+        <div class="input-group">
+            <input type="text" id="wordInput" placeholder="Enter a word">
+            <button id="guessButton">Guess</button>
+        </div>
+        <div id="foundWords" class="word-list"></div>
+        <div id="score" class="score"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
